@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "ReACT-3", "label": "ReACT-3", "shape": "dot", "title": "Use common programming language (PHP, JAVA,\nJavascript, Python, Ruby): The order of the\nprogramming languages are provided based on\ndecreasing order of turnover rates by core\ndevelopers"}, {"color": "#5DBB63", "id": "Code", "label": "Code", "shape": "dot", "title": "The Code class is centered around the quality and\nmaintainability of the project\u0027s source code.\nActionables here emphasize coding standards,\ndocumentation, and version control practices."}, {"color": "#97c2fc", "id": "ReACT-1", "label": "ReACT-1", "shape": "dot", "title": "Maintaining a set of active/friendly developers"}, {"color": "#5DBB63", "id": "Individual", "label": "Individual", "shape": "dot", "title": "The Individual class emphasizes the role of\nindividual Contributors in the sustainability of\nan open-source project. It involves contributing\ncode, reporting bugs, updating documentation, and\nengaging in community discussions."}, {"color": "#5DBB63", "id": " Group", "label": " Group", "shape": "dot", "title": "Activities that can be performed by working groups\nwithin the project fall under this class. These\ngroups can work on various aspects of the project,\nsuch as development, documentation, or community\nengagement."}, {"color": "#97c2fc", "id": "ReACT-6", "label": "ReACT-6", "shape": "dot", "title": "Maintaining Continuous Integration"}, {"color": "#97c2fc", "id": "ReACT-11", "label": "ReACT-11", "shape": "dot", "title": "Maintaining project small or simple"}, {"color": "#5DBB63", "id": "Project", "label": "Project", "shape": "dot", "title": "The Project class focuses on the overall\nmanagement and direction of the open-source\nproject. Actionable in this class relate to\ngovernance structures, decision-making processes,\nsetting project goals, and developing roadmaps."}, {"color": "#5DBB63", "id": " Ecosystem", "label": " Ecosystem", "shape": "dot", "title": "Actionable in this class related to the project\u0027s\ninteractions with the broader software ecosystem.\nIt involves collaborating with related projects,\nmanaging dependencies, and ensuring compatibility\nwith other software in the ecosystem. These\nactions ensure the project remains relevant and\nwell-integrated within the more prominent software\nlandscape."}, {"color": "#97c2fc", "id": "ReACT-34", "label": "ReACT-34", "shape": "dot", "title": "Keeping small number of core developers / (Higher\nthe team size, higher the turnover of core\ndevelopers)"}, {"color": "#97c2fc", "id": "ReACT-2", "label": "ReACT-2", "shape": "dot", "title": "Include the new members in the project, in which\nthey had previous exposure"}, {"color": "#97c2fc", "id": "ReACT-4", "label": "ReACT-4", "shape": "dot", "title": "Use most common SE principles"}, {"color": "#97c2fc", "id": "ReACT-5", "label": "ReACT-5", "shape": "dot", "title": "Doing Pull based development"}, {"color": "#97c2fc", "id": "ReACT-7", "label": "ReACT-7", "shape": "dot", "title": "Maintaining Well designed Code"}, {"color": "#97c2fc", "id": "ReACT-8", "label": "ReACT-8", "shape": "dot", "title": "Doing Code Revision"}, {"color": "#97c2fc", "id": "ReACT-9", "label": "ReACT-9", "shape": "dot", "title": "Providing access of the main repository to the\nnewcomer"}, {"color": "#97c2fc", "id": "ReACT-10", "label": "ReACT-10", "shape": "dot", "title": "Providing Job Support to the newcomer"}, {"color": "#5DBB63", "id": "Foundation", "label": "Foundation", "shape": "dot", "title": "Actionable in this class related to financial and\nlegal aspects essential for the project\u0027s\nstability and growth. This includes creating or\njoining a foundation, seeking financial support\nthrough donations or sponsorships, and protecting\nthe project\u0027s assets and intellectual property."}, {"color": "#97c2fc", "id": "ReACT-12", "label": "ReACT-12", "shape": "dot", "title": "Having Open Source Licence"}, {"color": "#97c2fc", "id": "ReACT-13", "label": "ReACT-13", "shape": "dot", "title": "Pay the contributor/Providing financial support"}, {"color": "#97c2fc", "id": "ReACT-14", "label": "ReACT-14", "shape": "dot", "title": "Working on a bug or issue together with mentee"}, {"color": "#5DBB63", "id": "Pairwise", "label": "Pairwise", "shape": "dot", "title": "The pair programming or code reviews, where two\ndevelopers work closely together, fall under the\npairwise class."}, {"color": "#97c2fc", "id": "ReACT-15", "label": "ReACT-15", "shape": "dot", "title": "Holding training sessions for newcomers"}, {"color": "#5DBB63", "id": " Pairwise", "label": " Pairwise", "shape": "dot", "title": "The pair programming or code reviews, where two\ndevelopers work closely together, fall under the\npairwise class."}, {"color": "#97c2fc", "id": "ReACT-16", "label": "ReACT-16", "shape": "dot", "title": "Flagging newcomers so others are welcoming to them"}, {"color": "#97c2fc", "id": "ReACT-17", "label": "ReACT-17", "shape": "dot", "title": "Communication through different means"}, {"color": "#5DBB63", "id": " Project", "label": " Project", "shape": "dot", "title": "The Project class focuses on the overall\nmanagement and direction of the open-source\nproject. Actionable in this class relate to\ngovernance structures, decision-making processes,\nsetting project goals, and developing roadmaps."}, {"color": "#97c2fc", "id": "ReACT-18", "label": "ReACT-18", "shape": "dot", "title": "Giving the newcomers small/ interesting tasks"}, {"color": "#97c2fc", "id": "ReACT-19", "label": "ReACT-19", "shape": "dot", "title": "Giving newcomers rewards to keep them motivated"}, {"color": "#97c2fc", "id": "ReACT-20", "label": "ReACT-20", "shape": "dot", "title": "Having newcomers share their work to have more\nexposure"}, {"color": "#97c2fc", "id": "ReACT-21", "label": "ReACT-21", "shape": "dot", "title": "Tagging the tasks according to their complexity"}, {"color": "#97c2fc", "id": "ReACT-22", "label": "ReACT-22", "shape": "dot", "title": "Having local groups in each country"}, {"color": "#97c2fc", "id": "ReACT-23", "label": "ReACT-23", "shape": "dot", "title": "Keeping documentation concise and updated"}, {"color": "#5DBB63", "id": "Group", "label": "Group", "shape": "dot", "title": "Activities that can be performed by working groups\nwithin the project fall under this class. These\ngroups can work on various aspects of the project,\nsuch as development, documentation, or community\nengagement."}, {"color": "#97c2fc", "id": "ReACT-24", "label": "ReACT-24", "shape": "dot", "title": "Doing Unit test"}, {"color": "#97c2fc", "id": "ReACT-25", "label": "ReACT-25", "shape": "dot", "title": "Keeping documentation for the code"}, {"color": "#97c2fc", "id": "ReACT-26", "label": "ReACT-26", "shape": "dot", "title": "Keeping well structured design"}, {"color": "#97c2fc", "id": "ReACT-27", "label": "ReACT-27", "shape": "dot", "title": "Doing frequent code reviews"}, {"color": "#97c2fc", "id": "ReACT-28", "label": "ReACT-28", "shape": "dot", "title": "Having open source license"}, {"color": "#97c2fc", "id": "ReACT-29", "label": "ReACT-29", "shape": "dot", "title": "Providing coding guidelines"}, {"color": "#97c2fc", "id": "ReACT-30", "label": "ReACT-30", "shape": "dot", "title": "Promoting code transparency"}, {"color": "#97c2fc", "id": "ReACT-31", "label": "ReACT-31", "shape": "dot", "title": "Provide contribution guidelines"}, {"color": "#97c2fc", "id": "ReACT-32", "label": "ReACT-32", "shape": "dot", "title": "Keeping a set of available project leaders"}, {"color": "#97c2fc", "id": "ReACT-33", "label": "ReACT-33", "shape": "dot", "title": "Maintaining an open and meritocratic culture"}, {"color": "#97c2fc", "id": "ReACT-35", "label": "ReACT-35", "shape": "dot", "title": "Having less conflicts among developers"}, {"color": "#97c2fc", "id": "ReACT-36", "label": "ReACT-36", "shape": "dot", "title": "Having experienced Contributors"}, {"color": "#97c2fc", "id": "ReACT-37", "label": "ReACT-37", "shape": "dot", "title": "Keeping shared repository: the pairs should access\nand manipulate files from the same repository"}, {"color": "#5DBB63", "id": "Infrastructure", "label": "Infrastructure", "shape": "dot", "title": "Actionables in this class focus on maintaining and\noptimizing the project\u0027s technical infrastructure.\nThis includes hosting, version control systems,\nbuild and deployment processes, and other tools\ncritical to the project\u0027s development."}, {"color": "#97c2fc", "id": "ReACT-38", "label": "ReACT-38", "shape": "dot", "title": "Use a distributed pair programming tool that\nsupport the roles between the pairs:"}, {"color": "#97c2fc", "id": "ReACT-39", "label": "ReACT-39", "shape": "dot", "title": "Make developers use tool that supports synchronous\nediting of source code"}, {"color": "#5DBB63", "id": " Individual", "label": " Individual", "shape": "dot", "title": "The Individual class emphasizes the role of\nindividual Contributors in the sustainability of\nan open-source project. It involves contributing\ncode, reporting bugs, updating documentation, and\nengaging in community discussions."}, {"color": "#97c2fc", "id": "ReACT-40", "label": "ReACT-40", "shape": "dot", "title": "Use a system that support the options of compiling\nand executing the source code being edited and\nshould notify the users of the error messages\nreported by the compiler"}, {"color": "#5DBB63", "id": " Code", "label": " Code", "shape": "dot", "title": "The Code class is centered around the quality and\nmaintainability of the project\u0027s source code.\nActionables here emphasize coding standards,\ndocumentation, and version control practices."}, {"color": "#97c2fc", "id": "ReACT-41", "label": "ReACT-41", "shape": "dot", "title": "The source code files to be shared should be\nstored in Web repositories to ensure that\ndocuments are available to all members of the\ndevelopment team."}, {"color": "#97c2fc", "id": "ReACT-42", "label": "ReACT-42", "shape": "dot", "title": "Access to documents being edited should be\ncontrolled at the repository. Mechanisms to\nrequest and obtain shared resources need to be\nprovided"}, {"color": "#97c2fc", "id": "ReACT-43", "label": "ReACT-43", "shape": "dot", "title": "Use a communication channel that supports text and\naudio-based communication"}, {"color": "#97c2fc", "id": "ReACT-44", "label": "ReACT-44", "shape": "dot", "title": "Couple people with comparable experience and\ncapabilities;"}, {"color": "#97c2fc", "id": "ReACT-45", "label": "ReACT-45", "shape": "dot", "title": "Plan frequent brainstorming sessions in order to\ncreate a common vision of the project"}, {"color": "#97c2fc", "id": "ReACT-46", "label": "ReACT-46", "shape": "dot", "title": "make a group of developers to work together in\nmultiple projects"}, {"color": "#97c2fc", "id": "ReACT-47", "label": "ReACT-47", "shape": "dot", "title": "Have the project owned by users, rather than\norganization (project owned by organization have\nhigher core developer turnover rate)"}, {"color": "#97c2fc", "id": "ReACT-48", "label": "ReACT-48", "shape": "dot", "title": "Plan to finish the project in a shorter amount of\ntime. (Core Developers Turnover rate increases as\nthe project ages)"}, {"color": "#97c2fc", "id": "ReACT-49", "label": "ReACT-49", "shape": "dot", "title": "Incorporating inclusive pronouns in communication.\n(reference to the team using an inclusive pronoun.\nIf we see \u201cwe\u201d or \u201cus\u201d or \u201cour\u201d, and it refers to\nthe group, then it is Inclusive Reference. Not if\n\u201cwe\u201d or \u201cus\u201d or \u201cour\u201d refer to another group that\nthe speaker is a member of)"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#016064", "from": "ReACT-3", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-1", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-1", "to": " Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-6", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-11", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-11", "to": " Ecosystem"}, {"arrows": "to", "color": "#016064", "from": "ReACT-34", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-2", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-2", "to": " Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-4", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-5", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-7", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-8", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-9", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-10", "to": "Foundation"}, {"arrows": "to", "color": "#016064", "from": "ReACT-12", "to": "Foundation"}, {"arrows": "to", "color": "#016064", "from": "ReACT-13", "to": "Foundation"}, {"arrows": "to", "color": "#016064", "from": "ReACT-14", "to": "Pairwise"}, {"arrows": "to", "color": "#016064", "from": "ReACT-15", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-15", "to": " Pairwise"}, {"arrows": "to", "color": "#016064", "from": "ReACT-15", "to": " Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-16", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-17", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-17", "to": " Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-17", "to": " Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-17", "to": " Ecosystem"}, {"arrows": "to", "color": "#016064", "from": "ReACT-18", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-19", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-20", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-21", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-22", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-23", "to": "Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-24", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-25", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-26", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-27", "to": "Pairwise"}, {"arrows": "to", "color": "#016064", "from": "ReACT-27", "to": " Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-28", "to": "Foundation"}, {"arrows": "to", "color": "#016064", "from": "ReACT-29", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-30", "to": "Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-31", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-32", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-33", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-35", "to": "Pairwise"}, {"arrows": "to", "color": "#016064", "from": "ReACT-35", "to": " Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-36", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-37", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-38", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-39", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-39", "to": " Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-40", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-40", "to": " Code"}, {"arrows": "to", "color": "#016064", "from": "ReACT-41", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-42", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-43", "to": "Infrastructure"}, {"arrows": "to", "color": "#016064", "from": "ReACT-43", "to": " Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-44", "to": "Pairwise"}, {"arrows": "to", "color": "#016064", "from": "ReACT-45", "to": "Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-45", "to": " Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-46", "to": "Group"}, {"arrows": "to", "color": "#016064", "from": "ReACT-47", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-47", "to": " Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-48", "to": "Project"}, {"arrows": "to", "color": "#016064", "from": "ReACT-49", "to": "Individual"}, {"arrows": "to", "color": "#016064", "from": "ReACT-49", "to": " Group"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
