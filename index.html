@@ -1,139 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReACTS for OSS</title>
-    <link rel="icon" href="img/icon.png" type="image/x-icon">
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css"></head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ReACTive</title>
+    <link rel="stylesheet" href="img/feature.png">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style5.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
 <body>
 
-<div class="container-fluid mt-4">
-    <div class="row" style="margin-top: -1%;">
-        <div class="col-sm-11"></div>
-        <div class="col-sm-1">
-            <a href="about.html"><img src="img/icon2.png" height="50px" width="50px" class="rounded-image" alt="Gator" title="Gator"></a>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <!-- <div class="sidebar-header">
+                <h3>ReACTive</h3>
+                <a href="index.html"><img src="img/oss.webp" alt="Features" height="60px" width="60px">ReACTive</a>
+            </div> -->
+
+            <ul class="list-unstyled components">
+                <!-- <i class="fas fa-file-alt"></i> -->
+                <li class="active">
+                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px">Features</a>
+                  </li>
+                  <li>
+                    <a href="feature.html"><img src="img/p_features.png" alt="Features" height="60px" width="60px">ReACTs & Features</a>
+                  </li>
+                  <li>
+                    <a href="entity.html"><img src="img/p_entities.png" alt="Entities" height="60px" width="60px">ReACTs & Entity</a>
+                  </li>
+                  <li>
+                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px">Dataset</a>
+                  </li>
+            </ul>
+
+            <!-- <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul> -->
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <strong><h3>ReACTive: Interactive Visualization of Researched Actionables</h3> </strong>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="about.html"><img src="img/icon2.png" height="50px" width="50px" class="rounded-image" alt="about" title="About"></a>
+                            </li>
+
+                            <li class="nav-item" style="margin-left: 8px;">
+                                <a href="contact.html"><img src="img/contact.png" height="50px" width="50px" class="rounded-image" alt="Contact" title="Contact"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main Page Content Starts from here -->
+            <h4 style="color: darkblue; text-align: center;">Description of Features</h4>
+              <br>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <center>
+                      <iframe src="supple.pdf" width="1040" height="800" frameborder="0"></iframe>
+                    </center>
+                  </div>
+                </div>
+
+            <!-- Main Page Content ENDS here -->    
+
         </div>
     </div>
 
 
-
-     <div class="container-fluid">
-        <div class="row" style="border: padding: 5px;">
-            <div class="col-sm-7" style="top: 40px;">
-                <center><h2> <label style="color: darkred; margin-right: 0;">ReACT</label><label style="color: darkblue;">Lens</label> : <label style="color: darkred;">  ReACTs</label> for the <label style="color: darkblue;">Developer Community</label> to make OSS Projects <label style="color: darkgreen;">Sustainable</label></h2></center>
-            </div>
-
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/ReACT.png" height="250px" width="420px">
-            </div>
-            
-        </div>
-        </div>
-
-    <!-- <center><h3>ReACTs for the developer community to make OSS Projects Sustainable</h3></center> -->
-
-    <br>
-<!-- 
-     <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/profile.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="PROFILE.html">Publication Profile</a></h4></center>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <strong><p style="color: black;">&copy; <span id="currentYear"></span> ReACTive. All rights reserved.</p></strong>
+                </div>
             </div>
         </div>
-        </div>
-
-
-         <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/topical.jpeg" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="TOPICAL.html">Topical Association</a></h4></center>
-            </div>
-        </div>
-        </div> -->
-
-
-        <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/feature.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="DescFeature.html">Description of Features</a></h4></center>
-            </div>
-        </div>
-        </div>
-        
-
-
-
-        <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/p_features.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="pre_feature.html">Analysis of ReACTs and Features</a></h4></center>
-            </div>
-        </div>
-        </div>
-        
-        
-<!--     <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/p_classes.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="CLASS.html">Analysis of ReACTs and Classes</a></h4></center>
-            </div>
-        </div>
-        </div> -->
-
-
-
-    <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/p_entities.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="ENTITY.html">Analysis of ReACTs and Entities</a></h4></center>
-            </div>
-        </div>
-        </div>
-
-
-
-    <div class="container-fluid">
-            <div class="row" style="border: 1px solid black;padding: 5px;">
-            <div class="col-sm-4" style="left: 10%;">
-                <img src="img/dataset.png" height="100px" width="110px">
-            </div>
-            <div class="col-sm-8" style="top: 32px;right: 10%;">
-                <center><h4><a href="DATASET.html">Dataset</a></h4></center>
-            </div>
-        </div>
-        </div>
+    </footer>
     
-    </ul>
-</div>
 
-<!-- Include Bootstrap JS (optional, only if you need Bootstrap JavaScript features) -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<footer>
-    <p>&copy; 2024 ReACTLens. All rights reserved.</p>
-</footer>
 
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </body>
+
 </html>

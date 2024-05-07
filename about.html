@@ -1,91 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainability Research</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ReACTive</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style5.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
+
 <body>
 
-<div class="container-fluid mt-4">
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <!-- <div class="sidebar-header">
+                <h3>ReACTive</h3>
+                <a href="index.html"><img src="img/oss.webp" alt="Features" height="60px" width="60px">ReACTive</a>
+            </div> -->
 
-  <div class="row">
-    <div class="col-sm-3">
-      <a href="index.html"><img src="img/back.png" height="100px" width="110px"></a>
+            <ul class="list-unstyled components">
+                <!-- <i class="fas fa-file-alt"></i> -->
+                <li>
+                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px">Features</a>
+                  </li>
+                  <li>
+                    <a href="feature.html"><img src="img/p_features.png" alt="Features" height="60px" width="60px">ReACTs & Features</a>
+                  </li>
+                  <li>
+                    <a href="entity.html"><img src="img/p_entities.png" alt="Entities" height="60px" width="60px">ReACTs & Entity</a>
+                  </li>
+                  <li class="active">
+                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px">Dataset</a>
+                  </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <strong><h3>ReACTive: Interactive Visualization of Researched Actionables</h3> </strong>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="about.html"><img src="img/icon2.png" height="50px" width="50px" class="rounded-image" alt="about" title="About"></a>
+                            </li>
+
+                            <li class="nav-item" style="margin-left: 8px;">
+                                <a href="contact.html"><img src="img/contact.png" height="50px" width="50px" class="rounded-image" alt="Contact" title="Contact"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- Main Page Content Starts from here -->
+        <h3 style="color: darkblue;margin-left: 25%;">About the Tool</h3>
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm-8">
+            <p style="font-size: 14;" class="text-justify">
+                ReACTLens is an interactive tool that visualizes the connection between ReACTs and the features, and the associativity of ReACTs with entities (personnel responsible for performing ReACTs). The tool is primarily designed for developers, with secondary utility extending to all individuals engaged in the OSS Community.
+
+
+                ReACTLens displays an interactive network graph to visualize ReACTs and their impact on each of the features. A snapshot of the graph is shown in Figure 1. This dynamic network graph adopts a directed acyclic graph (DAG) structure, featuring circular nodes (color: light blue) representing ReACTs, rectangular nodes (color: light red) delineating features, and edges symbolizing articles.
+                Edges connect circular nodes (ReACTs) to rectangular nodes (features), indicating the existence of at least one article observing the effect. The edges are weighted, representing the strength of the relationship. 
+            </p>
+                <h5><strong>Development of the Tool </strong></h5>
+
+                <p style="font-size: 14;" class="text-justify">
+
+                The tool's front-end is crafted with a blend of HTML, CSS, and JavaScript. Python's <a href="https://pyvis.readthedocs.io/en/latest" target="_blank">PyVis library</a>  has been used to generate the interactive network graphs, while python's <a href="https://plotly.com/" target="_blank"> Plotly </a> Plotly has been harnessed to generate the other interactive plots (bar-chart, pie-chart, scattered plot). The plots offer interactivity by displaying tooltips when users hover over or click on any component of the graph. A tooltip is a small pop-up box that appears when a user hovers over an element on a web page. It provides additional information or a brief description related to the element. To preserve the interactivity of the plots, each plot was individually transformed into an HTML file. Subsequently, these files were embedded into the front-end using HTML's inline element known as the <i>iframe</i>. This element facilitates the creation of a nested browsing context, allowing the display of a distinct HTML document within the main document. 
+            </p>
+                <h5><strong>Use-Cases of the tool</strong></h5>
+                <h6><strong>Use Case 1: Finding ReACTS to Tune Features</strong></h6>
+            <p style="font-size: 14;" class="text-justify">
+                ReACTLens can be used to find the ReACTs, responsible for tuning a particular feature. 
+                Hovering over a node provides a detailed description of the node, as tooltips. Hovering over an edge reveals relevant information, including article count, references, and links. This feature enables users to directly access articles from the tool that observed the relationship between a ReACT and a feature.
+
+                Additionally, clicking on a specific feature node in the graph highlights all associated ReACT nodes, offering insights into the ReACTs to consider when tuning a particular feature. This interactive functionality enhances user experience and facilitates a more in-depth exploration of the relationships within the data.
+
+                
+            </p>
+
+            
+
+                <h6><strong>Use Case 2: Finding roles and responsibilities</strong></h6>
+            <p style="font-size: 14;" class="text-justify">
+                ReACTLens can be used to understand the roles of the personnel who are responsible for performing each of the ReACTs. An interactive scattered plot has been utilized to show the relationship between ReACTs and the entities. The graph displays entities along the X-axis, with ReACTs represented on the Y-axis. Interconnections between a ReACT and an entity are visually depicted as square boxes. Clicking on these boxes reveals tooltips, providing insights into the specific connection between a ReACT and an entity, which includes definitions for the components to offer a comprehensive understanding. Thus, with ReACTLens, users can easily discern the ReACTs assigned to them, enhancing clarity and facilitating their responsibilities.
+
+                
+            </p>     
+                
+            <p style="font-size: 14;" class="text-justify">
+
+                
+            </p>
+            
+            </div>
+            <div class="col-sm-4">
+            <img src="network_graph.jpg" height="40%" width="100%"> 
+            
+            </div>
+        </div>
+        </div>
+
+
+        <!-- Main Page Content ENDS here -->    
+
+        </div>
     </div>
-    <div class="col-sm-9" style="top: 20px;">
-    <h1 style="color: darkblue;margin-left: 25%;">About the Tool</h1>
-    </div>
-  </div>
-
-  <!-- <center><h1 style="color: darkblue;">Topical Association</h1></center> -->
-  <br>
-
-  <!-- <center><h3>About the Tool</h3></center> -->
-  <div class="container-fluid">
-        <div class="row">
-      <div class="col-sm-8">
-        <p style="font-size: 14;" class="text-justify">
-          ReACTLens is an interactive tool that visualizes the connection between ReACTs and the features, and the associativity of ReACTs with entities (personnel responsible for performing ReACTs). The tool is primarily designed for developers, with secondary utility extending to all individuals engaged in the OSS Community.
 
 
-          ReACTLens displays an interactive network graph to visualize ReACTs and their impact on each of the features. A snapshot of the graph is shown in Figure 1. This dynamic network graph adopts a directed acyclic graph (DAG) structure, featuring circular nodes (color: light blue) representing ReACTs, rectangular nodes (color: light red) delineating features, and edges symbolizing articles.
-          Edges connect circular nodes (ReACTs) to rectangular nodes (features), indicating the existence of at least one article observing the effect. The edges are weighted, representing the strength of the relationship. 
-        </p>
-          <h5><strong>Development of the Tool </strong></h5>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <strong><p style="color: black;">&copy; <span id="currentYear"></span> ReACTive. All rights reserved.</p></strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 
-          <p style="font-size: 14;" class="text-justify">
 
-          The tool's front-end is crafted with a blend of HTML, CSS, and JavaScript. Python's <a href="https://pyvis.readthedocs.io/en/latest" target="_blank">PyVis library</a>  has been used to generate the interactive network graphs, while python's <a href="https://plotly.com/" target="_blank"> Plotly </a> Plotly has been harnessed to generate the other interactive plots (bar-chart, pie-chart, scattered plot). The plots offer interactivity by displaying tooltips when users hover over or click on any component of the graph. A tooltip is a small pop-up box that appears when a user hovers over an element on a web page. It provides additional information or a brief description related to the element. To preserve the interactivity of the plots, each plot was individually transformed into an HTML file. Subsequently, these files were embedded into the front-end using HTML's inline element known as the <i>iframe</i>. This element facilitates the creation of a nested browsing context, allowing the display of a distinct HTML document within the main document. 
-        </p>
-         <h5><strong>Use-Cases of the tool</strong></h5>
-         <h6><strong>Use Case 1: Finding ReACTS to Tune Features</strong></h6>
-        <p style="font-size: 14;" class="text-justify">
-          ReACTLens can be used to find the ReACTs, responsible for tuning a particular feature. 
-          Hovering over a node provides a detailed description of the node, as tooltips. Hovering over an edge reveals relevant information, including article count, references, and links. This feature enables users to directly access articles from the tool that observed the relationship between a ReACT and a feature.
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-          Additionally, clicking on a specific feature node in the graph highlights all associated ReACT nodes, offering insights into the ReACTs to consider when tuning a particular feature. This interactive functionality enhances user experience and facilitates a more in-depth exploration of the relationships within the data.
-
-          
-        </p>
-
-        
-
-         <h6><strong>Use Case 2: Finding roles and responsibilities</strong></h6>
-        <p style="font-size: 14;" class="text-justify">
-          ReACTLens can be used to understand the roles of the personnel who are responsible for performing each of the ReACTs. An interactive scattered plot has been utilized to show the relationship between ReACTs and the entities. The graph displays entities along the X-axis, with ReACTs represented on the Y-axis. Interconnections between a ReACT and an entity are visually depicted as square boxes. Clicking on these boxes reveals tooltips, providing insights into the specific connection between a ReACT and an entity, which includes definitions for the components to offer a comprehensive understanding. Thus, with ReACTLens, users can easily discern the ReACTs assigned to them, enhancing clarity and facilitating their responsibilities.
-
-          
-        </p>     
-         
-        <p style="font-size: 14;" class="text-justify">
-
-          
-        </p>
-      
-      </div>
-      <div class="col-sm-4">
-        <img src="network_graph.jpg" height="40%" width="100%"> 
-        
-      </div>
-    </div>
-  </div>
-    <br>
-    <br>
-
-  
-</div>
-
-<!-- Include Bootstrap JS (optional, only if you need Bootstrap JavaScript features) -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </body>
-<footer>
-    <p>&copy; 2024 ReACTLens. All rights reserved.</p>
-</footer>
+
 </html>
