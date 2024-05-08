@@ -27,35 +27,33 @@
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
-            <!-- <div class="sidebar-header">
-                <h3>ReACTive</h3>
-                <a href="index.html"><img src="img/oss.webp" alt="Features" height="60px" width="60px">ReACTive</a>
-            </div> -->
 
             <ul class="list-unstyled components">
                 <!-- <i class="fas fa-file-alt"></i> -->
-                <li>
-                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px">Features</a>
+                <li class="active">
+                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px"> Features</a>
+                  </li>
+
+                  <li>
+                    <a href="#FeatureSubmenu" data-toggle="collapse" aria-expanded="false"><img src="img/p_features.png" alt="Features" height="60px" width="60px"> ReACTs & Features</a>
+                    <ul class="collapse list-unstyled" id="FeatureSubmenu">
+                      <li><a href="feature.html#section1"><img src="img/net.png" alt="Features" height="45px" width="50px"> Network Graph</a></li>
+                      <li><a href="feature.html#section2"><img src="img/distribution.png" alt="Features" height="45px" width="50px"> Distribution</a></li>
+                      <li><a href="feature.html#section3"><img src="img/statistics.png" alt="Features" height="45px" width="50px"> Statistics</a></li>
+                    </ul>
                   </li>
                   <li>
-                    <a href="feature.html"><img src="img/p_features.png" alt="Features" height="60px" width="60px">ReACTs & Features</a>
-                  </li>
-                  <li class="active">
-                    <a href="entity.html"><img src="img/p_entities.png" alt="Entities" height="60px" width="60px">ReACTs & Entity</a>
+                    <a href="#EntitySubmenu" data-toggle="collapse" aria-expanded="false">><img src="img/p_entities.png" alt="Entities" height="60px" width="60px"> ReACTs & Entity</a>
+                    <ul class="collapse list-unstyled" id="EntitySubmenu">
+                        <li><a href="entity.html#section1"><img src="img/net.png" alt="Features" height="45px" width="50px"> Network Graph</a></li>
+                        <li><a href="entity.html#section2"><img src="img/distribution.png" alt="Features" height="45px" width="50px"> Distribution</a></li>
+                        <li><a href="entity.html#section3"><img src="img/statistics.png" alt="Features" height="45px" width="50px"> Statistics</a></li>
+                      </ul>
                   </li>
                   <li>
-                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px">Dataset</a>
+                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px"> Dataset</a>
                   </li>
             </ul>
-
-            <!-- <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul> -->
         </nav>
 
         <!-- Page Content Holder -->
@@ -91,19 +89,19 @@
 
             <!-- Main Page Content Starts from here -->
 
-            <h4 style="color: darkblue; text-align: center;">Network Graph Illustrating the Relation Between ReACTs and Entities</h4>
+            <h4 id="section1" style="color: darkblue; text-align: center;">Network Graph Illustrating the Relation Between ReACTs and Entities</h4>
             <div style="position: absolute;top: 190px;right: 20px;"><img src="img/ReACTAndEntity.png" height="180" alt="Description of the image"></div>
             <iframe src="RE/IG_Entity.html" width="100%" height="900" frameborder="0"></iframe>
             
                 <br>
                 <br>
             
-                <center><h3>Scattered Plot Illustrating the Distribution of ReACTs, across the Entities</h3></center>
+                <center><h3 id="section2">Scattered Plot Illustrating the Distribution of ReACTs, across the Entities</h3></center>
                 <center><iframe src="RE/SP_Entity.html" width="70%" height="1250" frameborder="0"></iframe></center>
             
                 <br>
                 <br>
-                <center><h3>Statistics of ReACTs and Entities</h3></center>
+                <center><h3 id="section3">Statistics of ReACTs and Entities</h3></center>
                 <center><iframe src="RE/BarPlot_Entity.html" width="60%" height="600" frameborder="0"></iframe></center>
 
             <!-- Main Page Content ENDS here -->    

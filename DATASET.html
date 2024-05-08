@@ -27,35 +27,33 @@
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
-            <!-- <div class="sidebar-header">
-                <h3>ReACTive</h3>
-                <a href="index.html"><img src="img/oss.webp" alt="Features" height="60px" width="60px">ReACTive</a>
-            </div> -->
 
             <ul class="list-unstyled components">
                 <!-- <i class="fas fa-file-alt"></i> -->
-                <li>
-                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px">Features</a>
+                <li class="active">
+                  <a href="index.html"><img src="img/feature.png" alt="Features" height="60px" width="60px"> Features</a>
+                  </li>
+
+                  <li>
+                    <a href="#FeatureSubmenu" data-toggle="collapse" aria-expanded="false"><img src="img/p_features.png" alt="Features" height="60px" width="60px"> ReACTs & Features</a>
+                    <ul class="collapse list-unstyled" id="FeatureSubmenu">
+                      <li><a href="feature.html#section1"><img src="img/net.png" alt="Features" height="45px" width="50px"> Network Graph</a></li>
+                      <li><a href="feature.html#section2"><img src="img/distribution.png" alt="Features" height="45px" width="50px"> Distribution</a></li>
+                      <li><a href="feature.html#section3"><img src="img/statistics.png" alt="Features" height="45px" width="50px"> Statistics</a></li>
+                    </ul>
                   </li>
                   <li>
-                    <a href="feature.html"><img src="img/p_features.png" alt="Features" height="60px" width="60px">ReACTs & Features</a>
+                    <a href="#EntitySubmenu" data-toggle="collapse" aria-expanded="false">><img src="img/p_entities.png" alt="Entities" height="60px" width="60px"> ReACTs & Entity</a>
+                    <ul class="collapse list-unstyled" id="EntitySubmenu">
+                        <li><a href="entity.html#section1"><img src="img/net.png" alt="Features" height="45px" width="50px"> Network Graph</a></li>
+                        <li><a href="entity.html#section2"><img src="img/distribution.png" alt="Features" height="45px" width="50px"> Distribution</a></li>
+                        <li><a href="entity.html#section3"><img src="img/statistics.png" alt="Features" height="45px" width="50px"> Statistics</a></li>
+                      </ul>
                   </li>
                   <li>
-                    <a href="entity.html"><img src="img/p_entities.png" alt="Entities" height="60px" width="60px">ReACTs & Entity</a>
-                  </li>
-                  <li class="active">
-                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px">Dataset</a>
+                    <a href="dataset.html"><img src="img/dataset.png" alt="Dataset" height="60px" width="60px"> Dataset</a>
                   </li>
             </ul>
-
-            <!-- <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul> -->
         </nav>
 
         <!-- Page Content Holder -->
