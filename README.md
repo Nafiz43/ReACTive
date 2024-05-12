@@ -1,26 +1,10 @@
 # ReACTive: Visualizing ReACTs and Their Impact on Features
-This repository contains the dataset of Researched Actionables (ReACTs) and the source code for generating the network figures used in the ReACT tool. Along with that, this repository includes all the necessary files to visualize the ReACT tool on the client-side/web browser. These files encompass the HTML, CSS, and JavaScript components that power the tool's front-end, ensuring a seamless and interactive user experience. 
-
-Researched Actionables (ReACTs) are practical, evidence-based advice derived from a comprehensive literature review to help enhance the sustainability of Open Source Software (OSS) projects. ReACTs are designed to positively influence specific features of sustainability forecasting models, providing developers with actionable steps to improve their projects' long-term viability. By following ReACTs, OSS projects can fine-tune the features of their sustainability models, increasing their chances of success and longevity.
+This repository contains the dataset of Researched Actionables (ReACTs) and the source code for generating the network figures used in the ReACTive. Along with that, this repository includes all the necessary files to visualize the ReACT tool on the client-side/web browser. These files encompass the HTML, CSS, and JavaScript components that power the tool's front-end, ensuring a seamless and interactive user experience. 
 
 ## ReACT
 Researched Actionables (ReACTs) are practical, evidence-based advice derived from a comprehensive literature review to help enhance the sustainability of Open Source Software (OSS) projects. ReACTs are designed to positively influence specific features of sustainability forecasting models, providing developers with actionable steps to improve their projects' long-term viability. By following ReACTs, OSS projects can fine-tune the features of their sustainability models, increasing their chances of success and longevity. 
 
-## ReACT Dataset
-[This](ReACT_Dataset.xlsx) is the ReACT dataset, containing 105 ReACTs, along with the responsible entities and the impacted features.
-
-## ReACT Network Generator
-
-[This](ReACT_Dataset.xlsx) notebook contains all the required codes to generate the networks of the tool. 
-
-To generate the networks, first install the dependencies by running the following command:
-pip install -r requirements.txt
-Then, run all the cells of the notebook sequentially. Make sure the dataset (ReACT_Dataset.xlsx) and the notebook; are in the same directory. 
-
-After the successful completion of all the cells, 6 html files will be created in two directories (RE and RF) under the current directory. RE directory will store the HTML files associated with entities, while RF directory will store the HTML files associated with Features. 
-
-
-## About ReACTive
+## ReACTive
 
 ReACTive is an interactive tool designed to visualize the connections between ReACTs (Researched Actionables) and features, as well as the associativity of ReACTs with entities (personnel responsible for performing ReACTs). The tool is primarily intended for developers but can also be useful for all individuals engaged in the OSS Community.
 
@@ -49,9 +33,31 @@ ReACTive can be used to understand the roles of the personnel who are responsibl
 
 Interconnections between a ReACT and an entity are visually depicted as square boxes. Clicking on these boxes reveals tooltips, providing insights into the specific connection between a ReACT and an entity, including definitions for the components to offer a comprehensive understanding. With ReACTive, users can easily discern the ReACTs assigned to them, enhancing clarity and facilitating their responsibilities.
 
-## Getting Started
 
+## ReACT Dataset
+[This](ReACT_Dataset.xlsx) is the ReACT dataset, containing 105 ReACTs, along with the responsible entities and the impacted features.
+
+
+## Getting Started
 To use ReACTive, open [this](https://nafiz43.github.io/ReACT_V2/) in your web browser. 
+To run the tool locally: 
+1. Clone the repository: ``
+2. Open the `index.html` file in your preferred web-browser.
+
+Check the following sub-sections, if you want to regenerate the networks again.
+
+### ReACT Network Generator
+[This](ReACT_Dataset.xlsx) notebook contains all the required codes to generate the networks of the tool. 
+
+To generate the networks, first install the dependencies by running the following command: `pip install -r requirements.txt`
+Then, run all the cells of the notebook sequentially. Make sure the dataset (ReACT_Dataset.xlsx) and the notebook; are in the same directory. 
+
+After the successful completion of all the cells, 6 HTML files will be created under the current directory. The generated files ending with "_Entity.html" are responsible for rendering -(ReACT & Entity) network diagrams, while the files ending with "_Feature.html" are responsible for rendering - (ReACT & Feature) network diagrams.
+
+### Visualizing Networks in ReACTive
+For seeing the generated HTML files in ReACTive, make sure to put the files ending with "_Entity.html" in the RE directory, while putting the files ending with "_Feature.html" in the RF directory. 
+
+
 
 ## Contributing
 
@@ -65,3 +71,5 @@ This project is licensed under the [MIT License](LICENSE.txt).
 
 For any questions or inquiries, please contact:
 - Nafiz Imtiaz Khan (Email: nikhan@ucdavis.edu, GitHub: [nafiz43](https://github.com/Nafiz43))
+
+
