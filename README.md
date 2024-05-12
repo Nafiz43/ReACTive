@@ -41,7 +41,7 @@ Interconnections between a ReACT and an entity are visually depicted as square b
 ## Getting Started
 To use ReACTive, open [this](https://nafiz43.github.io/ReACTive/) in your web browser. 
 To run the tool locally: 
-1. Clone the repository: ``
+1. Clone the repository: `git clone https://github.com/Nafiz43/ReACTive`
 2. Open the `index.html` file in your preferred web-browser.
 
 Check the following sub-sections, if you want to regenerate the networks again.
