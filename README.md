@@ -1,8 +1,17 @@
 # ReACTive: Visualizing ReACTs and Their Impact on Features
+This repository contains the dataset of Researched Actionables (ReACTs) and the source code for generating the network figures used in the ReACT tool. Along with that, this repository includes all the necessary files to visualize the ReACT tool on the client-side/web browser. These files encompass the HTML, CSS, and JavaScript components that power the tool's front-end, ensuring a seamless and interactive user experience. 
 
-## About the Tool
+Researched Actionables (ReACTs) are practical, evidence-based advice derived from a comprehensive literature review to help enhance the sustainability of Open Source Software (OSS) projects. ReACTs are designed to positively influence specific features of sustainability forecasting models, providing developers with actionable steps to improve their projects' long-term viability. By following ReACTs, OSS projects can fine-tune the features of their sustainability models, increasing their chances of success and longevity.
 
-ReACTive is an interactive tool designed to visualize the connections between ReACTs (Refactoring Actions) and features, as well as the associativity of ReACTs with entities (personnel responsible for performing ReACTs). The tool is primarily intended for developers but can also be useful for all individuals engaged in the OSS Community.
+## ReACT
+Researched Actionables (ReACTs) are practical, evidence-based advice derived from a comprehensive literature review to help enhance the sustainability of Open Source Software (OSS) projects. ReACTs are designed to positively influence specific features of sustainability forecasting models, providing developers with actionable steps to improve their projects' long-term viability. By following ReACTs, OSS projects can fine-tune the features of their sustainability models, increasing their chances of success and longevity. 
+
+## ReACT Dataset
+
+
+## About ReACTive
+
+ReACTive is an interactive tool designed to visualize the connections between ReACTs (Researched Actionables) and features, as well as the associativity of ReACTs with entities (personnel responsible for performing ReACTs). The tool is primarily intended for developers but can also be useful for all individuals engaged in the OSS Community.
 
 ![ReACTive Graph](img/net_graph.jpeg)
 *Figure 1: A snapshot of the ReACTive network graph*
