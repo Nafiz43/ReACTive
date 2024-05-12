@@ -7,6 +7,17 @@ Researched Actionables (ReACTs) are practical, evidence-based advice derived fro
 Researched Actionables (ReACTs) are practical, evidence-based advice derived from a comprehensive literature review to help enhance the sustainability of Open Source Software (OSS) projects. ReACTs are designed to positively influence specific features of sustainability forecasting models, providing developers with actionable steps to improve their projects' long-term viability. By following ReACTs, OSS projects can fine-tune the features of their sustainability models, increasing their chances of success and longevity. 
 
 ## ReACT Dataset
+[This](ReACT_Dataset.xlsx) is the ReACT dataset, containing 105 ReACTs, along with the responsible entities and the impacted features.
+
+## ReACT Network Generator
+
+[This](ReACT_Dataset.xlsx) notebook contains all the required codes to generate the networks of the tool. 
+
+To generate the networks, first install the dependencies by running the following command:
+pip install -r requirements.txt
+Then, run all the cells of the notebook sequentially. Make sure the dataset (ReACT_Dataset.xlsx) and the notebook; are in the same directory. 
+
+After the successful completion of all the cells, 6 html files will be created in two directories (RE and RF) under the current directory. RE directory will store the HTML files associated with entities, while RF directory will store the HTML files associated with Features. 
 
 
 ## About ReACTive
@@ -16,7 +27,7 @@ ReACTive is an interactive tool designed to visualize the connections between Re
 ![ReACTive Graph](img/net_graph.jpeg)
 *Figure 1: A snapshot of the ReACTive network graph*
 
-The tool displays an interactive network graph that adopts a directed acyclic graph (DAG) structure. It features circular nodes (color: light blue) representing ReACTs, rectangular nodes (color: light red) delineating features, and edges symbolizing articles. Edges connect ReACTs to features, indicating the existence of at least one article observing the effect. The edges are weighted, representing the strength of the relationship.
+The tool displays an interactive network graph that adopts a directed acyclic graph (DAG) structure. It features circular nodes (light blue) representing ReACTs, rectangular nodes (color: light red) delineating features, and edges symbolizing articles. Edges connect ReACTs to features, indicating the existence of at least one article observing the effect. The edges are weighted, representing the strength of the relationship.
 
 ## Development of the Tool
 
@@ -48,11 +59,9 @@ Contributions to ReACTive are welcome! If you find any issues or have suggestion
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Contact
 
 For any questions or inquiries, please contact:
-Nafiz Imtiaz Khan
-- Email: nikhan@ucdavis.edu
-- GitHub: [nafiz43](https://github.com/Nafiz43)
+- Nafiz Imtiaz Khan (Email: nikhan@ucdavis.edu, GitHub: [nafiz43](https://github.com/Nafiz43))
