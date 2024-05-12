@@ -19,7 +19,7 @@ To preserve the interactivity of the plots, each plot is individually transforme
 
 ### Use Case 1: Finding ReACTs to Tune Features
 
-ReACTive can be used to find the ReACTs responsible for tuning a particular feature. Hovering over a node provides a detailed description of the node through tooltips. Hovering over an edge reveals relevant information, including article count, references, and links. Users can directly access articles from the tool that observed the relationship between a ReACT and a feature.
+ReACTive can be used to find the ReACTs responsible for tuning a particular feature. Hovering over a node provides a detailed description of the node through tooltips. Hovering over an edge reveals relevant information, including article count, references, and links. Users can directly access articles from the tool that observes the relationship between a ReACT and a feature.
 
 Clicking on a specific feature node in the graph highlights all associated ReACT nodes, offering insights into the ReACTs to consider when tuning a particular feature.
 
@@ -31,12 +31,7 @@ Interconnections between a ReACT and an entity are visually depicted as square b
 
 ## Getting Started
 
-To use ReACTive, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/reactive.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Run the application: `python app.py`
-4. Open your web browser and navigate to `http://localhost:5000`
+To use ReACTive, open [this](https://nafiz43.github.io/ReACT_V2/) in your web browser. 
 
 ## Contributing
 
@@ -49,6 +44,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any questions or inquiries, please contact:
-
-- Email: your-email@example.com
-- GitHub: [your-github-username](https://github.com/your-github-username)
+Nafiz Imtiaz Khan
+- Email: nikhan@ucdavis.edu
+- GitHub: [nafiz43](https://github.com/Nafiz43)
