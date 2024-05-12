@@ -59,6 +59,8 @@ After the successful completion of all the cells, 6 HTML files will be created u
 For seeing the generated HTML files in ReACTive, make sure to put the files ending with "_Entity.html" in the RE directory, while putting the files ending with "_Feature.html" in the RF directory. 
 
 
+## Paper
+This project is associated with the paper entitled "From Models to Practice: Enhancing OSS Project Sustainability with Evidence-Based Advice", available [here](https://doi.org/10.1145/3663529.3663777)
 
 ## Contributing
 
