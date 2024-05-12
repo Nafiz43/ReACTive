@@ -39,7 +39,7 @@ Interconnections between a ReACT and an entity are visually depicted as square b
 
 
 ## Getting Started
-To use ReACTive, open [this](https://nafiz43.github.io/ReACT_V2/) in your web browser. 
+To use ReACTive, open [this](https://nafiz43.github.io/ReACTive/) in your web browser. 
 To run the tool locally: 
 1. Clone the repository: ``
 2. Open the `index.html` file in your preferred web-browser.
