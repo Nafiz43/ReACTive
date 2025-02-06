@@ -6,22 +6,22 @@
         "Features": "st_num_dev, t_num_dev_nodes, s_num_nodes, s_avg_clustering_coef, s_weighted_mean_degree",
         "References": 3,
         "articles": [
-            {
-                "title": "On the abandonment and survival of open source projects: An empirical investigation",
-                "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
-            },
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            },
-            {
-                "title": "Why Do People Give Up FLOSSing? A Study of Contributor Disengagement in Open Source",
-                "doi": "https://doi.org/10.1007/978-3-030-20883-7_11"
-            },
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
+                {
+                    "title": "On the abandonment and survival of open source projects: An empirical investigation",
+                    "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
+                },
+                {
+                    "title": "Why we engage in FLOSS: answers from core developers",
+                    "doi": "https://doi.org/10.1145/3195836.3195848"
+                },
+                {
+                    "title": "Why Do People Give Up FLOSSing? A Study of Contributor Disengagement in Open Source",
+                    "doi": "https://doi.org/10.1007/978-3-030-20883-7_11"
+                },
+                {
+                    "title": "Ten simple rules for helping newcomers become contributors to open projects",
+                    "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+                }
         ],
         "Importance": 5
     },
@@ -32,11 +32,11 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "On the abandonment and survival of open source projects: An empirical investigation",
-                "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
-            }
-        ],
+        {
+            "title": "On the abandonment and survival of open source projects: An empirical investigation",
+            "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
+        }
+    ],
         "Importance": 1
     },
     {
@@ -58,7 +58,7 @@
                 "title": "Turnover in Open-Source Projects: The Case of Core Developers",
                 "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
             }
-        ],
+         ],
         "Importance": 6
     },
     {
@@ -68,11 +68,10 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "On the abandonment and survival of open source projects: An empirical investigation",
-                "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
-            }
-        ],
+        {
+            "title": "On the abandonment and survival of open source projects: An empirical investigation",
+            "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
+        }],
         "Importance": 1
     },
     {
@@ -124,15 +123,14 @@
         "Features": "st_num_dev, st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 2,
         "articles": [
-            {
-                "title": "On the abandonment and survival of open source projects: An empirical investigation",
-                "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
-            },
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        {
+            "title": "On the abandonment and survival of open source projects: An empirical investigation",
+            "doi": "https://doi.org/10.1109/ESEM.2019.8870181"
+        },
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }],
         "Importance": 6
     },
     {
@@ -192,15 +190,15 @@
         "Features": "st_num_dev, st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 2,
         "articles": [
-            {
-                "title": "On the abandonment and survival of open source projects: An empirical investigation",
-                "doi": "https://doi.org/10.1109/ESEM.2019.8870189"
-            },
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        {
+            "title": "On the abandonment and survival of open source projects: An empirical investigation",
+            "doi": "https://doi.org/10.1109/ESEM.2019.8870189"
+        },
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }
+    ],
         "Importance": 4
     },
     {
@@ -215,7 +213,7 @@
                 "doi": "https://doi.org/10.1109/ESEM.2019.8870190"
             },
             {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
+                "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
                 "doi": "https://doi.org/10.1007/s10606-018-9310-83"
             },
             {
@@ -236,11 +234,10 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
-                "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
-            }
-        ],
+        {
+            "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
+            "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
+        }],
         "Importance": 1
     },
     {
@@ -250,11 +247,10 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
-                "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
-            }
-        ],
+        {
+            "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
+            "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
+        }],
         "Importance": 1
     },
     {
@@ -264,11 +260,10 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
-                "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
-            }
-        ],
+        {
+            "title": "What Attracts Newcomers to Onboard on OSS Projects? TL;DR: Popularity",
+            "doi": "https://doi.org/10.1007/978-3-030-20883-7_9"
+        }],
         "Importance": 1
     },
     {
@@ -279,7 +274,7 @@
         "References": 1,
         "articles": [
             {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
+                "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
                 "doi": "https://doi.org/10.1007/s10606-018-9310-8"
             }
         ],
@@ -292,15 +287,14 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
         "articles": [
-            {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
-                "doi": "https://doi.org/10.1007/s10606-018-9310-8"
-            },
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        {
+            "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
+            "doi": "https://doi.org/10.1007/s10606-018-9310-8"
+        },
+        {
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
         "Importance": 2
     },
     {
@@ -310,15 +304,14 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
         "articles": [
-            {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
-                "doi": "https://doi.org/10.1007/s10606-018-9310-8"
-            },
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        {
+            "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
+            "doi": "https://doi.org/10.1007/s10606-018-9310-8"
+        },
+        {
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
         "Importance": 2
     },
     {
@@ -328,15 +321,14 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
-                "doi": "https://doi.org/10.1007/s10606-018-9310-8"
-            },
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        {
+            "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
+            "doi": "https://doi.org/10.1007/s10606-018-9310-8"
+        },
+        {
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
         "Importance": 1
     },
     {
@@ -346,15 +338,14 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
-                "doi": "https://doi.org/10.1007/s10606-018-9310-8"
-            },
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            }
-        ],
+        {
+            "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
+            "doi": "https://doi.org/10.1007/s10606-018-9310-8"
+        },
+        {
+            "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+            "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+        }],
         "Importance": 2
     },
     {
@@ -365,7 +356,7 @@
         "References": 1,
         "articles": [
             {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
+                "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
                 "doi": "https://doi.org/10.1007/s10606-018-9310-8"
             }
         ],
@@ -379,7 +370,7 @@
         "References": 1,
         "articles": [
             {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
+                "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
                 "doi": "https://doi.org/10.1007/s10606-018-9310-8"
             }
         ],
@@ -393,7 +384,7 @@
         "References": 1,
         "articles": [
             {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
+                "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
                 "doi": "https://doi.org/10.1007/s10606-018-9310-8"
             }
         ],
@@ -406,19 +397,18 @@
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density, st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
         "articles": [
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            },
-            {
-                "title": "Newcomers\u2019 Barriers. . . Is That All? An Analysis of Mentors\u2019 and Newcomers\u2019 Barriers in OSS Projects",
-                "doi": "https://doi.org/10.1007/s10606-018-9310-8"
-            },
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        {
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        },
+        {
+            "title": "Newcomers’ Barriers. . . Is That All? An Analysis of Mentors’ and Newcomers’ Barriers in OSS Projects",
+            "doi": "https://doi.org/10.1007/s10606-018-9310-8"
+        },
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }],
         "Importance": 6
     },
     {
@@ -428,10 +418,10 @@
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }
         ],
         "Importance": 3
     },
@@ -442,10 +432,10 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
+        {
+            "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+            "doi": "https://ieeexplore.ieee.org/document/8254320"
+        }
         ],
         "Importance": 1
     },
@@ -456,10 +446,10 @@
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }
         ],
         "Importance": 3
     },
@@ -470,14 +460,14 @@
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
+        {
+            "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+            "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+        },
+        {
+            "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+            "doi": "https://ieeexplore.ieee.org/document/8254320"
+        }
         ],
         "Importance": 3
     },
@@ -488,11 +478,11 @@
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }
         ],
         "Importance": 3
     },
@@ -503,11 +493,11 @@
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        }
         ],
         "Importance": 3
     },
@@ -518,17 +508,17 @@
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap, t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            },
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "details": "In XVI International Free Software Workshop 2015.",
-                "url": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            }
-        ],
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        },
+        {
+            "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+            "details": "In XVI International Free Software Workshop 2015.",
+            "url": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+        }
+    ], 
         "Importance": 6
     },
     {
@@ -538,17 +528,18 @@
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density, st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 2,
         "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            },
-            {
-                "title": "Do CONTRIBUTING Files Provide Information about OSS Newcomers\u2019 Onboarding Barriers?",
-                "details": "In Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). Association for Computing Machinery, New York, NY, USA, 16\u201328.",
-                "doi": "https://doi.org/10.1145/3611643.3616288"
-            }
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        },
+        {
+            "title": "Do CONTRIBUTING Files Provide Information about OSS Newcomers’ Onboarding Barriers?",
+            "details": "In Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). Association for Computing Machinery, New York, NY, USA, 16–28.",
+            "doi": "https://doi.org/10.1145/3611643.3616288"
+        }
         ],
+
         "Importance": 6
     },
     {
@@ -560,7 +551,7 @@
         "articles": [
             {
                 "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
+                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
                 "doi": "https://doi.org/10.1145/3195836.3195848"
             }
         ],
@@ -575,7 +566,7 @@
         "articles": [
             {
                 "title": "Why we engage in FLOSS: answers from core developers",
-                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114\u2013121.",
+                "details": "In Proceedings of the 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '18). Association for Computing Machinery, New York, NY, USA, 114–121.",
                 "doi": "https://doi.org/10.1145/3195836.3195848"
             }
         ],
@@ -587,19 +578,18 @@
         "Entity_responsible": "Project Maintainers, Technical Leads, Community Managers, Project Maintainers, Technical Leads, Community Managers, Project Maintainers, Technical Leads, Community Managers",
         "Features": "st_num_dev, st_num_dev, st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 3,
-        "articles": [
-            {
-                "title": "Inequalities in open source software development: Analysis of contributor\u2019s commits in apache software foundation projects",
-                "doi": "https://doi.org/10.1371/journal.pone.0152976"
-            },
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            },
-            {
-                "title": "Turnover in Open-Source Projects: The Case of Core Developers",
-                "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
-            }
+        "articles": [{
+        "title": "Inequalities in open source software development: Analysis of contributor’s commits in apache software foundation projects",
+        "doi": "https://doi.org/10.1371/journal.pone.0152976"
+        },
+        {
+            "title": "Why we engage in FLOSS: answers from core developers",
+            "doi": "https://doi.org/10.1145/3195836.3195848"
+        },
+        {
+            "title": "Turnover in Open-Source Projects: The Case of Core Developers",
+            "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
+        }
         ],
         "Importance": 7
     },
@@ -609,12 +599,10 @@
         "Entity_responsible": "Project Maintainers, Project Leaders",
         "Features": "st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        "articles": [{
+        "title": "Why we engage in FLOSS: answers from core developers",
+        "doi": "https://doi.org/10.1145/3195836.3195848"
+    }],
         "Importance": 5
     },
     {
@@ -623,12 +611,10 @@
         "Entity_responsible": "Project Maintainers, Community Managers",
         "Features": "st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        "articles": [{
+        "title": "Why we engage in FLOSS: answers from core developers",
+        "doi": "https://doi.org/10.1145/3195836.3195848"
+        }],
         "Importance": 5
     },
     {
@@ -637,12 +623,10 @@
         "Entity_responsible": "Architects",
         "Features": "st_num_dev, t_num_dev_nodes, t_net_overlap",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why we engage in FLOSS: answers from core developers",
-                "doi": "https://doi.org/10.1145/3195836.3195848"
-            }
-        ],
+        "articles": [{
+        "title": "Why we engage in FLOSS: answers from core developers",
+        "doi": "https://doi.org/10.1145/3195836.3195848"
+        }],
         "Importance": 3
     },
     {
@@ -651,12 +635,11 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Systematic Literature Review",
-                "doi": "https://doi.org/10.1016/j.infsof.2015.02.011"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Systematic Literature Review",
+        "doi": "https://doi.org/10.1016/j.infsof.2015.02.011"
+    }],
+        
         "Importance": 3
     },
     {
@@ -665,12 +648,10 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Systematic Literature Review",
-                "doi": "https://doi.org/10.1016/j.infsof.2015.02.011"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Systematic Literature Review",
+        "doi": "https://doi.org/10.1016/j.infsof.2015.02.011"
+    }],
         "Importance": 3
     },
     {
@@ -679,12 +660,10 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+    }],
         "Importance": 3
     },
     {
@@ -693,12 +672,10 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+    }],
         "Importance": 3
     },
     {
@@ -707,12 +684,10 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -721,12 +696,10 @@
         "Entity_responsible": "Project Maintainers, Collaboration Coordinators, Project Leaders",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -735,12 +708,10 @@
         "Entity_responsible": "Community Managers, Project Maintainers",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -749,12 +720,10 @@
         "Entity_responsible": "Project Managers, Project Leaders",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -763,12 +732,10 @@
         "Entity_responsible": "Project Managers, Project Leaders",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -777,12 +744,10 @@
         "Entity_responsible": "Project Managers, Project Leaders, Community Managers",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Distributed Pair Programming: A Survey",
-                "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
-            }
-        ],
+        "articles": [{
+        "title": "Distributed Pair Programming: A Survey",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3728922d403a967a1a3c09a1d8be5e864846faa7"
+        }],
         "Importance": 3
     },
     {
@@ -791,12 +756,10 @@
         "Entity_responsible": "Project Maintainers",
         "Features": "st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 1,
-        "articles": [
-            {
-                "title": "Turnover in Open-Source Projects: The Case of Core Developers",
-                "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
-            }
-        ],
+        "articles": [{
+        "title": "Turnover in Open-Source Projects: The Case of Core Developers",
+        "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
+        }],
         "Importance": 5
     },
     {
@@ -805,12 +768,10 @@
         "Entity_responsible": "Project Managers, Project Leaders, Developers",
         "Features": "st_num_dev, t_num_dev_nodes, s_num_nodes, s_net_overlap, s_net_overlap",
         "References": 1,
-        "articles": [
-            {
-                "title": "Turnover in Open-Source Projects: The Case of Core Developers",
-                "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
-            }
-        ],
+        "articles": [{
+        "title": "Turnover in Open-Source Projects: The Case of Core Developers",
+        "doi": "https://dl.acm.org/doi/10.1145/3422392.3422433"
+    }],
         "Importance": 5
     },
     {
@@ -819,12 +780,11 @@
         "Entity_responsible": "Project Leaders",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Inside Commits: An Empirical Study on Commits in Open-Source Software",
-                "doi": "https://doi.org/10.1145/3474624.3474629"
-            }
-        ],
+        "articles": [{
+        "title": "Inside Commits: An Empirical Study on Commits in Open-Source Software",
+        "doi": "https://doi.org/10.1145/3474624.3474629"
+    }],
+        
         "Importance": 1
     },
     {
@@ -833,12 +793,11 @@
         "Entity_responsible": "Owners",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Free and Open Source Software organizations: A large-scale analysis of code, comments, and commits frequency",
-                "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257192"
-            }
-        ],
+        "articles": [{
+        "title": "Free and Open Source Software organizations: A large-scale analysis of code, comments, and commits frequency",
+        "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257192"
+    }],
+        
         "Importance": 1
     },
     {
@@ -847,12 +806,10 @@
         "Entity_responsible": "Project Leaders, Community Managers",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Sentiment analysis of commit comments in GitHub: an empirical study",
-                "doi": "https://doi.org/10.1145/2597073.2597118"
-            }
-        ],
+        "articles": [{
+        "title": "Sentiment analysis of commit comments in GitHub: an empirical study",
+        "doi": "https://doi.org/10.1145/2597073.2597118"
+    }],
         "Importance": 1
     },
     {
@@ -861,12 +818,10 @@
         "Entity_responsible": "Project Leaders",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "A large-scale empirical exploration on refactoring activities in open source software projects",
-                "doi": "https://doi.org/10.1016/j.scico.2019.05.002"
-            }
-        ],
+        "articles": [{
+        "title": "A large-scale empirical exploration on refactoring activities in open source software projects",
+        "doi": "https://doi.org/10.1016/j.scico.2019.05.002"
+    }],
         "Importance": 3
     },
     {
@@ -875,12 +830,10 @@
         "Entity_responsible": "Collaboration Coordinators",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Toward an understanding of the motivation of open source software developers",
-                "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
-            }
-        ],
+        "articles": [{
+        "title": "Toward an understanding of the motivation of open source software developers",
+        "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
+    }],
         "Importance": 1
     },
     {
@@ -889,12 +842,10 @@
         "Entity_responsible": "Collaboration Coordinators",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Toward an understanding of the motivation of open source software developers",
-                "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
-            }
-        ],
+        "articles": [{
+        "title": "Toward an understanding of the motivation of open source software developers",
+        "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
+        }],
         "Importance": 1
     },
     {
@@ -903,16 +854,15 @@
         "Entity_responsible": "Mentors",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 2,
-        "articles": [
-            {
-                "title": "Toward an understanding of the motivation of open source software developers",
-                "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
-            },
-            {
-                "title": "Open borders? immigration in open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/4228643"
-            }
-        ],
+       "articles": [{
+        "title": "Toward an understanding of the motivation of open source software developers",
+        "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
+    },
+    {
+        "title": "Open borders? immigration in open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/4228643"
+    }],
+
         "Importance": 3
     },
     {
@@ -921,12 +871,11 @@
         "Entity_responsible": "Documentation Team",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Toward an understanding of the motivation of open source software developers",
-                "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
-            }
-        ],
+        "articles": [{
+        "title": "Toward an understanding of the motivation of open source software developers",
+        "doi": "https://doi.org/10.1109/ICSE.2003.1201220"
+    }],
+
         "Importance": 1
     },
     {
@@ -935,12 +884,10 @@
         "Entity_responsible": "Community Managers",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Community-based production of open-source software: What do we know about the developers who participate?",
-                "doi": "https://doi.org/10.1016/j.infoecopol.2008.10.001"
-            }
-        ],
+        "articles": [{
+        "title": "Community-based production of open-source software: What do we know about the developers who participate?",
+        "doi": "https://doi.org/10.1016/j.infoecopol.2008.10.001"
+    }], 
         "Importance": 1
     },
     {
@@ -949,12 +896,11 @@
         "Entity_responsible": "Project Managers",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Community-based production of open-source software: What do we know about the developers who participate?",
-                "doi": "https://doi.org/10.1016/j.infoecopol.2008.10.001"
-            }
-        ],
+        "articles": [{
+        "title": "Community-based production of open-source software: What do we know about the developers who participate?",
+        "doi": "https://doi.org/10.1016/j.infoecopol.2008.10.001"
+    }],
+
         "Importance": 1
     },
     {
@@ -963,12 +909,11 @@
         "Entity_responsible": "Mentors",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
-                "doi": "https://doi.org/10.1109/ICGSE.2017.11"
-            }
-        ],
+        "articles": [{
+        "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
+        "doi": "https://doi.org/10.1109/ICGSE.2017.11"
+    }],
+
         "Importance": 1
     },
     {
@@ -977,12 +922,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
-                "doi": "https://doi.org/10.1109/ICGSE.2017.11"
-            }
-        ],
+        "articles": [{
+        "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
+        "doi": "https://doi.org/10.1109/ICGSE.2017.11"
+    }],
         "Importance": 3
     },
     {
@@ -991,12 +934,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": ", t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
-                "doi": "https://doi.org/10.1109/ICGSE.2017.11"
-            }
-        ],
+        "articles": [{
+        "title": "Developer Turnover in Global, Industrial Open Source Projects: Insights from Applying Survival Analysis",
+        "doi": "https://doi.org/10.1109/ICGSE.2017.11"
+    }],
         "Importance": 2
     },
     {
@@ -1005,12 +946,11 @@
         "Entity_responsible": "Project Leaders",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Do People Give Up FLOSSing? A Study of Contributor Disengagement in Open Source",
-                "doi": "https://doi.org/10.1007/978-3-030-20883-7_11"
-            }
-        ],
+        "articles": [{
+        "title": "Why Do People Give Up FLOSSing? A Study of Contributor Disengagement in Open Source",
+        "doi": "https://doi.org/10.1007/978-3-030-20883-7_11"
+    }],
+        
         "Importance": 1
     },
     {
@@ -1019,12 +959,10 @@
         "Entity_responsible": "Quality Assurance Team",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
-                "doi": "https://doi.org/10.1109/ICSME.2016.83"
-            }
-        ],
+        "articles": [{
+        "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
+        "doi": "https://doi.org/10.1109/ICSME.2016.83"
+    }],
         "Importance": 1
     },
     {
@@ -1033,12 +971,10 @@
         "Entity_responsible": "Project Managers",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
-                "doi": "https://doi.org/10.1109/ICSME.2016.83"
-            }
-        ],
+        "articles": [{
+        "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
+        "doi": "https://doi.org/10.1109/ICSME.2016.83"
+    }],
         "Importance": 1
     },
     {
@@ -1047,12 +983,10 @@
         "Entity_responsible": "Project Leaders",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
-                "doi": "https://doi.org/10.1109/ICSME.2016.83"
-            }
-        ],
+        "articles": [{
+        "title": "Why are Commits Being Reverted?: A Comparative Study of Industrial and Open Source Projects",
+        "doi": "https://doi.org/10.1109/ICSME.2016.83"
+    }],
         "Importance": 1
     },
     {
@@ -1061,12 +995,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1075,12 +1007,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1089,12 +1019,10 @@
         "Entity_responsible": "Quality Assurance Team",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1103,12 +1031,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1117,12 +1043,10 @@
         "Entity_responsible": "Code Reviewers",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1131,12 +1055,10 @@
         "Entity_responsible": "Technical Leads",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1145,12 +1067,10 @@
         "Entity_responsible": "Project Managers",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1159,12 +1079,10 @@
         "Entity_responsible": "Architects",
         "Features": "t_num_fils",
         "References": 1,
-        "articles": [
-            {
-                "title": "Why Developers Refactor Source Code: A Mining-based Study",
-                "doi": "https://doi.org/10.1145/3408302"
-            }
-        ],
+        "articles": [{
+        "title": "Why Developers Refactor Source Code: A Mining-based Study",
+        "doi": "https://doi.org/10.1145/3408302"
+    }],
         "Importance": 1
     },
     {
@@ -1173,12 +1091,10 @@
         "Entity_responsible": "Collaboration Coordinators",
         "Features": "st_num_dev",
         "References": 1,
-        "articles": [
-            {
-                "title": "Communication in open-source projects-end of the e-mail era?",
-                "doi": "https://doi.org/10.1145/3183440.3194951"
-            }
-        ],
+        "articles": [{
+        "title": "Communication in open-source projects-end of the e-mail era?",
+        "doi": "https://doi.org/10.1145/3183440.3194951"
+    }], 
         "Importance": 1
     },
     {
@@ -1187,12 +1103,11 @@
         "Entity_responsible": "Developers, Code Reviewers, Core Developers",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            }
-        ],
+        "articles": [{
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    }],
+
         "Importance": 3
     },
     {
@@ -1201,12 +1116,10 @@
         "Entity_responsible": "Collaboration Coordinators",
         "Features": "s_num_nodes, s_avg_clustering_coef, s_weighted_mean_degree, s_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    }],
         "Importance": 4
     },
     {
@@ -1215,12 +1128,10 @@
         "Entity_responsible": "Project Leaders",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    }],
         "Importance": 3
     },
     {
@@ -1229,12 +1140,10 @@
         "Entity_responsible": "Documentation Team",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    }],
         "Importance": 3
     },
     {
@@ -1243,12 +1152,10 @@
         "Entity_responsible": "Community Moderators",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    }],
         "Importance": 3
     },
     {
@@ -1257,12 +1164,10 @@
         "Entity_responsible": "Mentors",
         "Features": "s_num_nodes, s_avg_clustering_coef, s_weighted_mean_degree, s_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    }],
         "Importance": 4
     },
     {
@@ -1271,16 +1176,14 @@
         "Entity_responsible": "Mentors",
         "Features": "st_num_dev, t_num_dev_nodes, ",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            },
-            {
-                "title": "The role of mentoring and project characteristics for onboarding in open source software projects",
-                "doi": "https://doi.org/10.1145/2652524.2652540"
-            }
-        ],
+        "articles": [{
+        "title": "Ten simple rules for helping newcomers become contributors to open projects",
+        "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+    },
+    {
+        "title": "The role of mentoring and project characteristics for onboarding in open source software projects",
+        "doi": "https://doi.org/10.1145/2652524.2652540"
+    }],
         "Importance": 3
     },
     {
@@ -1289,12 +1192,10 @@
         "Entity_responsible": "Mentors",
         "Features": "t_num_dev_nodes, t_num_dev_per_file, t_graph_density",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+         "title": "Ten simple rules for helping newcomers become contributors to open projects",
+         "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+        }],
         "Importance": 3
     },
     {
@@ -1303,12 +1204,10 @@
         "Entity_responsible": "Mentors",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+         "title": "Ten simple rules for helping newcomers become contributors to open projects",
+         "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+        }],
         "Importance": 2
     },
     {
@@ -1317,12 +1216,10 @@
         "Entity_responsible": "Mentors",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Ten simple rules for helping newcomers become contributors to open projects",
-                "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
-            }
-        ],
+        "articles": [{
+         "title": "Ten simple rules for helping newcomers become contributors to open projects",
+         "doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296"
+        }],
         "Importance": 2
     },
     {
@@ -1331,12 +1228,11 @@
         "Entity_responsible": "Mentors",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        "articles": [{
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
+
         "Importance": 2
     },
     {
@@ -1345,12 +1241,10 @@
         "Entity_responsible": "Community Moderators",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        "articles": [{
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
         "Importance": 2
     },
     {
@@ -1359,12 +1253,10 @@
         "Entity_responsible": "Project Managers",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
-            {
-                "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
-                "doi": "https://doi.org/10.1109/CSCI.2017.171"
-            }
-        ],
+        "articles": [{
+            "title": "Difficulties of Newcomers Joining Software Projects Already in Execution",
+            "doi": "https://doi.org/10.1109/CSCI.2017.171"
+        }],
         "Importance": 2
     },
     {
@@ -1374,26 +1266,27 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Joining free/open source software communities: An analysis of newbies' first interactions on project mailing lists",
-                "doi": "https://ieeexplore.ieee.org/document/5718853"
-            }
-        ],
+        {
+            "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+            "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+        },
+        {
+            "title": "Joining free/open source software communities: An analysis of newbies' first interactions on project mailing lists",
+            "doi": "https://ieeexplore.ieee.org/document/5718853"
+        }
+    ],
+
         "Importance": 2
     },
     {
         "ReACT-ID": "ReACT-92",
-        "ReACT_title": "Be kind and make newcomers feel part of the team: Experienced members should answer newcomers\u2019 messages and welcome them, even if they have already received an answer. Designating a few experienced members to deal with new members, or setting a code of conduct can potentially solve reception issues. Send thankful, welcoming messages to account for cultural differences and misunderstandings.",
+        "ReACT_title": "Be kind and make newcomers feel part of the team: Experienced members should answer newcomers’ messages and welcome them, even if they have already received an answer. Designating a few experienced members to deal with new members, or setting a code of conduct can potentially solve reception issues. Send thankful, welcoming messages to account for cultural differences and misunderstandings.",
         "Entity_responsible": "Collaboration Coordinators, Community Moderators, Mentors",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
-        "articles": [
+            "articles": [
             {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
+                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
                 "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
             },
             {
@@ -1405,38 +1298,38 @@
     },
     {
         "ReACT-ID": "ReACT-93",
-        "ReACT_title": "Have Local/regional communication channels: Whenever possible, create regional mailing lists, IRC channels, and forums,  which can encourage newcomers\u2019 first contact and reduce the barriers related to cultural difference and language",
+        "ReACT_title": "Have Local/regional communication channels: Whenever possible, create regional mailing lists, IRC channels, and forums,  which can encourage newcomers’ first contact and reduce the barriers related to cultural difference and language",
         "Entity_responsible": "\nCollaboration Coordinators, Community Managers, Community Moderators",
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    },
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
         "Importance": 1
     },
     {
         "ReACT-ID": "ReACT-94",
-        "ReACT_title": "Create a newcomer-specific page.  Show only what is important for newcomers\u2019 first steps, like how the project is organized, and what/where are the important resources (code repository, mailing lists, issue tracker, IRC channel, code review tool). Keep the page clean, organized, up-todate, and easy to follow.",
+        "ReACT_title": "Create a newcomer-specific page.  Show only what is important for newcomers’ first steps, like how the project is organized, and what/where are the important resources (code repository, mailing lists, issue tracker, IRC channel, code review tool). Keep the page clean, organized, up-todate, and easy to follow.",
         "Entity_responsible": "Documentation Team, Collaboration Coordinators, Project Leaders",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+        {
+            "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+            "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+        },
+        {
+            "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+            "doi": "https://ieeexplore.ieee.org/document/8254320"
+        }
+    ],
         "Importance": 2
     },
     {
@@ -1447,14 +1340,14 @@
         "References": 1,
         "articles": [
             {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
+                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
                 "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
             },
             {
                 "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
                 "doi": "https://ieeexplore.ieee.org/document/8254320"
             }
-        ],
+        ],      
         "Importance": 2
     },
     {
@@ -1465,7 +1358,7 @@
         "References": 2,
         "articles": [
             {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
+                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
                 "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
             },
             {
@@ -1481,9 +1374,9 @@
         "Entity_responsible": "Documentation Team, Design Team, Technical Leads",
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
-        "articles": [
+         "articles": [
             {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
+                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
                 "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
             },
             {
@@ -1491,6 +1384,7 @@
                 "doi": "https://ieeexplore.ieee.org/document/8254320"
             }
         ],
+
         "Importance": 2
     },
     {
@@ -1501,7 +1395,7 @@
         "References": 2,
         "articles": [
             {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
+                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
                 "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
             },
             {
@@ -1518,15 +1412,15 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    },
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
         "Importance": 2
     },
     {
@@ -1536,15 +1430,16 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    },
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
+
         "Importance": 2
     },
     {
@@ -1554,15 +1449,15 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 2,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    },
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
         "Importance": 2
     },
     {
@@ -1572,15 +1467,16 @@
         "Features": "st_num_dev, t_num_dev_nodes",
         "References": 1,
         "articles": [
-            {
-                "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers\u2019 onboarding",
-                "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
-            },
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Fostering Free/Libre Open Source Software community formation: guidelines for communities to support newcomers’ onboarding",
+        "doi": "https://www.ime.usp.br/~gerosa/papers/fostering-freelibre-open-source-software-community-formation_-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf"
+    },
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
+
         "Importance": 2
     },
     {
@@ -1590,11 +1486,11 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
         "Importance": 1
     },
     {
@@ -1604,11 +1500,12 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
+
         "Importance": 1
     },
     {
@@ -1618,11 +1515,12 @@
         "Features": "st_num_dev",
         "References": 1,
         "articles": [
-            {
-                "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
-                "doi": "https://ieeexplore.ieee.org/document/8254320"
-            }
-        ],
+    {
+        "title": "Let me in: Guidelines for the successful onboarding of newcomers to open source projects",
+        "doi": "https://ieeexplore.ieee.org/document/8254320"
+    }
+],
+
         "Importance": 1
     }
 ]
