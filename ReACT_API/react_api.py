@@ -56,7 +56,7 @@ def ReACT_Extractor(original_data, feature_data: pd.DataFrame, month_n: int) -> 
 
 
 feature_data = pd.read_csv('Apache-Kafka-Data.csv')
-month_n = 7
+month_n = 9
 with open("react_set.json", 'r') as json_file:
     original_data = json.load(json_file)
 
